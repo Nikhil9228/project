@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grab Your Drink</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <!-- custom css and js file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" async></script>
+    
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/logo.jpg" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <button class="fas fa-search" id="search-btn"></button>
+        <button class="fas fa-shopping-cart cart" id="cart-btn" onclick="cart()"><span style="color:green;">0</span></button>
+        <button class="fas fa-user" id="login-btn" onclick="login()"></button>
+        <button class="fas fa-bars" id="men-btn"></button>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>fresh juice in summer</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat labore, sint cupiditate distinctio tempora reiciendis.</p>
+        <a href="#" class="btn">get yours now</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> about us  </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/about-img.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>what makes our juice special?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus qui ea ullam, enim tempora ipsum fuga alias quae ratione a officiis id temporibus autem? Quod nemo facilis cupiditate. Ex, vel?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit amet enim quod veritatis, nihil voluptas culpa! Neque consectetur obcaecati sapiente?</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- menu section starts  -->
+<div class="div1">
+<section class="menu" id="menu">
+
+    <h1 class="heading">  our menu </h1>
+    
+    
+    <div class="box-container">
+    
+
+        <div class="box" id="item1">
+            <img src="images/menu-1.jpg" alt="">
+            <h3>Banana juice</h3>
+            <div class="price">₹150 <span>₹170</span></div>
+            <button class="add-cart cart1" id="c1" >add to cart</button>
+        </div>
+    </div>
+
+</section>
+
+<section class="menu" id="menu">
+
+ 
+    <div class="box-container">
+
+        <div class="box" id="item2">
+            <img src="images/menu-2.jpg" alt="">
+            <h3>Apple juice</h3>
+            <div class="price">₹170 <span>₹190</span></div>
+            <button  class="add-cart cart2" id="c2" >add to cart</button>
+        </div>
+    </div>
+
+</section>
+<section class="menu" id="menu">
+
+    <div class="box-container">
+
+        <div class="box" id="item3">
+            <img src="images/menu-3.jpg" alt="">
+            <h3>Sweet lemon juice</h3>
+            <div class="price">₹165 <span>₹180</span></div>
+            <button  class="add-cart cart3" id="c3">add to cart</button>
+        </div>
+    </div>
+
+</section>
+<section class="menu" id="menu">
+
+    
+    <div class="box-container">
+
+        <div class="box" id="item4">
+            <img src="images/menu-4.jpg" alt="">
+            <h3>Watermelon juice</h3>
+            <div class="price">₹155 <span>₹170</span></div>
+            <button  class="add-cart cart4" id="c4">add to cart</button>
+        </div>
+    </div>
+
+</section>
+</div>
+<section class="menu" id="menu">
+
+    <h1 class="heading">  our menu </h1>
+    
+    
+    <div class="box-container">
+
+        <div class="box" id="item5">
+            <img src="images/menu-5.jpg" alt="">
+            <h3>Mango juice</h3>
+            <div class="price">₹200 <span>₹220</span></div>
+            <button class="add-cart cart5" id="c5">add to cart</button>
+        </div>
+
+        <div class="box" id="item6">
+            <img src="images/menu-6.jpg" alt="">
+            <h3>Avacado juice</h3>
+            <div class="price">₹350 <span>₹390</span></div>
+            <button class="add-cart cart6" id="c6">add to cart</button>
+        </div>
+
+        <div class="box" id="item7">
+            <img src="images/menu-7.jpg" alt="">
+            <h3>Pomegranate juice</h3>
+            <div class="price">₹200 <span>₹220</span></div>
+            <button class="add-cart cart7" id="c7">add to cart</button>
+        </div>
+
+        <div class="box" id="item8">
+            <img src="images/menu-8.jpg" alt="">
+            <h3>Sugarcane juice</h3>
+            <div class="price">₹100 <span>₹120</span></div>
+            <button class="add-cart cart8" id="c8">add to cart</button>
+        </div>
+        
+
+    </div>
+
+</section>
+
+<!-- menu section ends -->
+<!-- Our products starts -->
+<section class="menu" id="products">
+
+    <h1 class="heading">  our Products</h1>
+    
+    
+    <div class="box-container">
+    
+
+        <div class="box" id="item1">
+            <img style="width:50% ; height:70%" src="images/product-1.png" alt="">
+            <h3>NICARAGUA Coffeebeans</h3>
+            <div class="price">₹150 <span>₹170</span></div>
+            <button class="add-cart cart1" >add to cart</button>
+        </div>
+
+        <div class="box" id="item2">
+            <img style="width:50% ; height:70%" src="images/product-2.png" alt="">
+            <h3>COLUMBIA Coffeebeans</h3>
+            <div class="price">₹170 <span>₹190</span></div>
+            <button  class="add-cart cart2"  >add to cart</button>
+        </div>
+
+        <div class="box" id="item3">
+            <img style="width:50% ; height:70%" src="images/product-3.png" alt="">
+            <h3>PERU Coffeebeans</h3>
+            <div class="price">₹165 <span>₹180</span></div>
+            <button  class="add-cart cart3" >add to cart</button>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- our products ends -->
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">  customer's review </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="images/pic-1.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="images/pic-2.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="images/pic-3.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading">  our blogs </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-1.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin / 21st may, 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-2.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin / 21st may, 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-3.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin / 21st may, 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="links">
+        <a href="#">home</a>
+        <a href="#">about</a>
+        <a href="#">menu</a>
+        <a href="#">products</a>
+        <a href="#">review</a>
+        <a href="#">blogs</a>
+    </div>
+
+    <div class="credit">created by <span>mr. web designer</span> | all rights reserved</div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>
